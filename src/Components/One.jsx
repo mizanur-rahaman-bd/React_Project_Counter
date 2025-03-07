@@ -10,6 +10,9 @@ const One = () => {
   return (
     <>
       <div className="container">
+        <div className="heading mx-auto">
+          <h1>Counter Mizanur Rahaman</h1>
+        </div>
         <div className="main_counter">
           <button onClick={() => dispatch(increment())}>+</button>
           <h2>{count}</h2>

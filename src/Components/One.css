@@ -1,3 +1,3 @@
 .main_counter{
-    @apply flex justify-center items-center py-[250px] flex-col
+    @apply flex justify-center items-center pt-[100px] my-auto flex-col
 }
