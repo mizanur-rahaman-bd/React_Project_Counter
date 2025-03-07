@@ -1,3 +1,9 @@
-.main_counter{
-    @apply flex justify-center items-center pt-[100px] my-auto flex-col
+.main_counter {
+  @apply flex justify-center items-center pt-[100px] my-auto;
+}
+.reset_button {
+  @apply text-center;
+}
+.reset_button button {
+  @apply w-[250px] h-[60px] text-[20px] px-[100px] py-[18px] bg-[#79c704] text-[#fff] rounded-[20px];
 }
