@@ -1,0 +1,3 @@
+.main_counter{
+    @apply flex justify-center items-center py-[250px]
+}

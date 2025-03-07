@@ -1,9 +1,11 @@
 import React from "react";
+import One from "./Components/One";
 
 function App() {
   return (
     <>
-      <h1 className="bg-amber-400">bolfs</h1>
+    <One />
+      
     </>
   );
 }
