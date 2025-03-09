@@ -2,16 +2,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Sofia&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Michroma&family=Sofia&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Michroma&family=Monoton&family=Sofia&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Michroma&family=Monoton&family=Satisfy&family=Sofia&display=swap");
 /* Font_Family_End */
 
 @import "tailwindcss";
 
-/* @utility container {
+@utility container {
   margin-inline: auto;
-} */
+}
 @theme {
-  --font-sofia: "Sofia", cursive;
-  --font-monoton: "Monoton", sans-serif;
-  --font-microma: "Michroma", sans-serif;
+  --font-sofia: "Sofia", "cursive";
+  --font-monoton: "Monoton", "sans-serif";
+  --font-microma: "Michroma", "sans-serif";
+  --font-satisfy: "Satisfy", "cursive";
 }

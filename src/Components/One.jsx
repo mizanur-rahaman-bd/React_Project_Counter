@@ -13,15 +13,21 @@ const One = () => {
         <div className="heading mx-auto">
           <h1 className="mx-auto">Counter Mizanur Rahaman</h1>
         </div>
-        <div className="main_counter">
-          <button onClick={() => dispatch(increment())}>+</button>
-          <h2>{count}</h2>
-          <button onClick={() => dispatch(decrement())}>-</button>
+        <div className="counterpage">
           
         </div>
-        <div className="reset_button">
-            <button onClick={() => dispatch(reset())}>Reset</button>
-          </div>
+        <div className="main_counter">
+          <button className="decrease" onClick={() => dispatch(decrement())}>
+            -
+          </button>
+          <h2 className="number">{count}</h2>
+          <button className="increase" onClick={() => dispatch(increment())}>
+            +
+          </button>
+        </div>
+      </div>
+      <div className="reset_button">
+        <button onClick={() => dispatch(reset())}>RESET</button>
       </div>
     </>
   );
