@@ -7,12 +7,22 @@
 .reset_button button {
   @apply w-[250px] h-[60px] font-[satisfy] font-[700] tracking-[5px] text-[20px] px-[90px] py-[18px] bg-[#79c704] text-[#fff] rounded-[20px];
 }
-.decrease{
-  @apply w-[60px] h-[60px] rounded-[50px] bg-[#004225] mr-[55px] font-[microma] font-[700] text-[#fff] text-[42px] pb-[5px] 
+.reset_button button:active {
+  @apply scale-110;
 }
-.increase{
-  @apply w-[60px] h-[60px] rounded-[50px] bg-[#09122C] ml-[40px] font-[microma] font-[700] text-[#fff] text-[42px] 
+.decrease {
+  @apply w-[60px] h-[60px] rounded-[50px] bg-[#004225] mr-[55px] font-[microma] font-[700] text-[#fff] text-[42px] pb-[5px];
 }
-.number{
-  @apply w-[60px] h-[60px] font-[microma] font-[700] text-[#09122C] text-[42px] 
+.decrease:active{
+  @apply scale-110
+
+}
+.increase {
+  @apply w-[60px] h-[60px] rounded-[50px] bg-[#09122C] ml-[40px] font-[microma] font-[700] text-[#fff] text-[42px];
+}
+.increase:active{
+  @apply scale-110
+}
+.number {
+  @apply w-[60px] h-[60px] font-[microma] font-[700] text-[#09122C] text-[42px];
 }
