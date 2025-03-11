@@ -1,17 +1,30 @@
+.counterpage{
+@apply bg-[#E3D2C3] p-[50px] mx-auto rounded-[20px] mt-[50px];
+clip-path: circle(50% at 50% 50%);
+
+}
+.curve_text{
+  @apply mx-auto w-[250px] h-[60px] font-[satisfy] font-[700] tracking-[5px] text-[20px] text-[#EAEAEA] px-[10px] py-[17px] bg-[#2DAA9E] rounded-[20px];
+  box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+  
+  
+}
 .main_counter {
-  @apply flex justify-center items-center pt-[100px] my-auto mb-[50px];
+  @apply flex justify-center items-center pt-[55px] my-auto mb-[50px];
 }
 .reset_button {
   @apply text-center;
 }
 .reset_button button {
   @apply w-[250px] h-[60px] font-[satisfy] font-[700] tracking-[5px] text-[20px] px-[90px] py-[18px] bg-[#79c704] text-[#fff] rounded-[20px];
+  box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
 }
 .reset_button button:active {
   @apply scale-110;
 }
 .decrease {
   @apply w-[60px] h-[60px] rounded-[50px] bg-[#004225] mr-[55px] font-[microma] font-[700] text-[#fff] text-[42px] pb-[5px];
+  box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
 }
 .decrease:active{
   @apply scale-110
@@ -19,6 +32,7 @@
 }
 .increase {
   @apply w-[60px] h-[60px] rounded-[50px] bg-[#09122C] ml-[40px] font-[microma] font-[700] text-[#fff] text-[42px];
+  box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
 }
 .increase:active{
   @apply scale-110
